@@ -1,0 +1,32 @@
+.error-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.error-content__icon {
+  width: 80px;
+  height: 80px;
+  background: var(--error-50);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--error-500);
+}
+
+.error-content__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black-900);
+}
+
+.error-content__message {
+  font-size: 15px;
+  color: var(--black-500);
+  text-align: center;
+  line-height: 1.6;
+}

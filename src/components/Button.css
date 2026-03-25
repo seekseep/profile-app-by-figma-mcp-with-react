@@ -1,0 +1,33 @@
+.btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Noto Sans JP', sans-serif;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+  text-align: center;
+  display: block;
+}
+
+.btn--primary {
+  background: var(--primary-500);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background: var(--primary-600);
+}
+
+.btn--secondary {
+  background: #fff;
+  color: var(--black-900);
+  border: 1px solid var(--black-200);
+}
+
+.btn--secondary:hover {
+  background: var(--primary-50);
+  border-color: var(--primary-500);
+}

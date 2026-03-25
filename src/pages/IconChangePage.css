@@ -1,0 +1,13 @@
+.section-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 40px;
+}
+
+.section-content__label {
+  font-size: 14px;
+  color: var(--black-500);
+}

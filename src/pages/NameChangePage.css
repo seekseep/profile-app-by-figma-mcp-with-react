@@ -1,0 +1,12 @@
+.name-change-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 20px;
+}
+
+.name-change-content__desc {
+  font-size: 14px;
+  color: var(--black-500);
+}

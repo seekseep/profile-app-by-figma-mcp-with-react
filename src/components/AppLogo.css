@@ -1,0 +1,36 @@
+.app-logo {
+  width: 64px;
+  height: 64px;
+  background: var(--primary-500);
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4px;
+  padding: 10px;
+  position: relative;
+}
+
+.app-logo__dot {
+  background: #fff;
+  border-radius: 3px;
+}
+
+.app-logo__dot--accent {
+  background: var(--primary-300);
+  width: 60%;
+  height: 60%;
+  align-self: end;
+  justify-self: end;
+}
+
+.app-logo__plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
